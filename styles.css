@@ -27,6 +27,7 @@ html, body {
 .upper,
  .lower {
     padding-left: 2em;
+    padding-right: 2em;
     color: white;
     font-size: 23px;
     font-weight: bold;
@@ -100,6 +101,12 @@ html, body {
     border-radius: 50%;
 }
 
+#profile_picture_bigger {
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+}
+
 .searchbar {
     display: flex;
     justify-content: end;
@@ -117,6 +124,44 @@ input {
     border: 0;
 }
 
+.greeting {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+    padding-left: 16em;
+}
+
+.greeting_text {
+    font-weight: bold;
+}
+
+.greeting_text > :nth-child(1) {
+    font-size: 17px;
+}
+
+.greeting_text > :nth-child(2) {
+    font-size: 25px;
+}
+
+button {
+    background-color: #0ea5e9;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    height: 2em;
+    width: 5.5em;
+    border-radius: 6em;
+
+}
+
+.header_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+}
 
 
 .content {
