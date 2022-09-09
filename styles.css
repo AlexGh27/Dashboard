@@ -173,7 +173,7 @@ button {
     display: grid;
     grid-template: 1fr 1fr / 2fr 1fr;
     place-items: center;
-    padding-right: 10em;
+    
     padding-left: 2em;
 }
 
@@ -192,7 +192,7 @@ button {
 .project {
     background-color: white;
     height: 14em;
-    width: 25em;
+    width: 26em;
     
 }
 
@@ -202,4 +202,30 @@ button {
 
 .project_text {
     font-size: 17px;
+}
+
+
+.content_2 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.news {
+    background-color: white;
+    height: 9em;
+    width: 18em;
+    padding: 2em;
+    
+}
+
+.news_title {
+    font-size: 17px;
+}
+
+.news_text {
+    font-size: 15px;
 }
